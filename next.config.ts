@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'app',
-  trailingSlash: true,
+  output: 'standalone',
 };
 
 export default nextConfig;
