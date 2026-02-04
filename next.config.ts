@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'app',
+  // Vercel handles Next.js automatically
 };
 
 export default nextConfig;
